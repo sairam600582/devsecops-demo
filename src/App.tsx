@@ -15,7 +15,7 @@ function App() {
     board: Array<string | null>;
     date: Date;
   }>>([]);
-  const [gameStatus, setGameStatus] = useState<'playing' | 'won' | 'draw'>('playing');
+  const [gameStatus, setGameStatus] = useState<'playing' | 'Won' | 'Tie'>('playing');
   const [winningLine, setWinningLine] = useState<number[] | null>(null);
 
   // Check for winner or draw
